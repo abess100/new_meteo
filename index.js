@@ -9,7 +9,6 @@
 // evenement au click
 
 touche.addEventListener('click', appelApi)
-research.value ='gabon';
 
 
 // 
