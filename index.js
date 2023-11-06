@@ -30,11 +30,20 @@ function appelApi(e){
     let  pressure = document.querySelector('.colo2').innerHTML = data.main.pressure + ' Pa';
     let  description = document.querySelector('.humidity').innerHTML = data.weather[0].description ;
     let  nuage = document.querySelector('.humidity').innerHTML = data.weather[0].main ;
+   
+    let image = document.querySelector('.image');
+
+    if(data.weather[0].main == "Rain"){
+        image.src='img/pluie.png'
+        console.log('bonjour');
+        // let img = document.querySelector('.logo')
+    }else if(data.weather[0].main == "Clouds" ) {
+        image.src='img/des-nuages.png'
+    }
+
     })) 
 
-    if(data.weather[0].main == 'clouds'){
-        let img = document.querySelector('.logo').innerHTML = `<img src="img/pluie.png" alt="">`
-    }
+   
     
     
     e.preventDefault;
