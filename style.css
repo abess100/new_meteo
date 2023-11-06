@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.conteneur{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(181deg, #00467D -13.07%, #01CCF5 97.48%);
+
+}
+
+.conteneur >.end{
+    width: 90%;
+    margin:  auto;
+    padding: 25px 15px 0px ;
+}
+
+input{
+    width: 76%;
+    height: 30px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    padding: 10px ;
+}
+button{
+    width: 24%;
+    height: 30px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    background-color: #01CCF5;
+    font-weight: 600;
+    color: #fff;
+    padding: 7px;
+}
+
+.titre{
+    width: 100%;
+    font-size: 30px;
+    margin:0px auto;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 50px 0px ;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    margin: 15px auto;
+    border-radius: 100%;
+}
+
+.logo img{
+    width: inherit;
+}
+
+.info{
+    width:80%;
+    margin: 15px auto;
+}
+.info{
+    display: flex;
+}
+
+.temp{
+    width: 50%;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+    padding: 25px;
+}
+
+.espace{
+    width: 50%;
+}
+.temp2{
+    width: 100%;
+    flex-shrink: 0; 
+    display: flex;
+    gap: 25px; 
+    text-align: center;
+    padding: 10px;
+}
+.temps, .temps1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+    width: 50%;
+}
+
+.temps1{
+    color: red;
+}
+
+.humidity{
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    width: 100%;
+    height:45px;
+    padding-top:10px ;
+}
+
+.elem{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.colo, .colo1, .colo2,.colo3{
+    width: 100%;
+    height: 30px;
+    /* padding-bottom: 20px; */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.meto{
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    gap: 5px;
+}
+.enfant{
+    text-align: center;
+    width: 33%;
+    height: 163px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(32, 98, 226, 0.22);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.next{
+    text-align: end;
+    padding-right: 30px;
+}
+.next a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+
+@media screen and (min-width:768px) {
+    body{
+        background: #00467D ;
+    }
+    .conteneur{
+        width: 50%;
+        margin: 30px auto;
+    }
+    
+}
