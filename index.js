@@ -43,7 +43,7 @@ function appelApi(e){
     })) 
 
    
-    
+   research =" "
     
     e.preventDefault;
 }
